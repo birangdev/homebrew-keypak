@@ -7,7 +7,7 @@ Homebrew tap for **keypak** — the official CLI for [KeyOpera](https://apps.app
 ## Install
 
 ```bash
-brew tap Arashk-A/keypak
+brew tap birangdev/keypak
 brew install keypak
 ```
 
