@@ -1,16 +1,16 @@
 class Keypak < Formula
   desc "KeyOpera CLI — create, validate, pack, and install keyboard sound packs"
   homepage "https://github.com/Arashk-A/homebrew-keypak"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/Arashk-A/homebrew-keypak/releases/download/v0.1.1/keypak-arm64.tar.gz"
-      sha256 "bb13320ef8be02c5b8e8e9768011ed04b24d503529388609573150860c853858" # arm64
+      url "https://github.com/Arashk-A/homebrew-keypak/releases/download/v0.1.2/keypak-arm64.tar.gz"
+      sha256 "6536f620d526397ae280fab0f2ede2d21c1c326a515c70425411cf7f43b2cb60" # arm64
     end
     on_intel do
-      url "https://github.com/Arashk-A/homebrew-keypak/releases/download/v0.1.1/keypak-x86_64.tar.gz"
-      sha256 "e5a8050b98ebb51a74735feedd443ad3eaadb0afe0885cfde2fefba17bfde580" # x86_64
+      url "https://github.com/Arashk-A/homebrew-keypak/releases/download/v0.1.2/keypak-x86_64.tar.gz"
+      sha256 "8598bf324b3a9923a4218480cf0d69b4ffba13b957f794b5c3ba1d4269f97d27" # x86_64
     end
   end
 
