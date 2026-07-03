@@ -38,6 +38,8 @@ keypak effect <name>                  # Switch the active sound pack
 keypak mute keyboard|mouse            # Mute keyboard or mouse sounds
 keypak unmute keyboard|mouse          # Unmute keyboard or mouse sounds
 keypak volume keyboard|mouse <0-100>  # Set volume (0–100)
+keypak announce on|off                # Enable or disable Key Announcement
+keypak speech-rate <0-100>           # Set the Key Announcement speech rate
 ```
 
 ### Create and distribute sound packs
