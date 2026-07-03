@@ -1,16 +1,16 @@
 class Keypak < Formula
   desc "KeyOpera CLI — create, validate, pack, and install keyboard sound packs"
   homepage "https://github.com/birangdev/homebrew-keypak"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/birangdev/homebrew-keypak/releases/download/v0.1.0/keypak-arm64.tar.gz"
-      sha256 "361cbd5ccda2e51e53e4b289cca15d2484128784d8c651333d7ae1beab9340ad" # arm64
+      url "https://github.com/birangdev/homebrew-keypak/releases/download/v0.1.1/keypak-arm64.tar.gz"
+      sha256 "c37d0a8e774cbc4317bdeb56d170e5b130b787c728e54efb0b59a55d91a6f3cb" # arm64
     end
     on_intel do
-      url "https://github.com/birangdev/homebrew-keypak/releases/download/v0.1.0/keypak-x86_64.tar.gz"
-      sha256 "6733d765e327919c30a46e31a755a350ecf257377162b5c3ba42358080f30ea8" # x86_64
+      url "https://github.com/birangdev/homebrew-keypak/releases/download/v0.1.1/keypak-x86_64.tar.gz"
+      sha256 "c02ad5d2817892898e2edf8fad4b148d7d1a239f3cc755dd6ee93035a279c438" # x86_64
     end
   end
 
